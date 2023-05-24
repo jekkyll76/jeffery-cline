@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "untitled-app": {
+    "musicians-unite": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/untitled-app",
+            "outputPath": "dist/musicians-unite",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -77,10 +77,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "untitled-app:build:production"
+              "browserTarget": "musicians-unite:build:production"
             },
             "development": {
-              "browserTarget": "untitled-app:build:development"
+              "browserTarget": "musicians-unite:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,7 +88,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "untitled-app:build"
+            "browserTarget": "musicians-unite:build"
           }
         },
         "test": {
@@ -126,7 +126,7 @@
       }
     }
   },
-  "defaultProject": "untitled-app",
+  "defaultProject": "musicians-unite",
   "cli": {
     "schematicCollections": ["@angular-eslint/schematics"]
   }
