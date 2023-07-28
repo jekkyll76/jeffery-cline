@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { View1Component } from './view1/view1.component';
 import { View2Component } from './view2/view2.component';
 import { View3Component } from './view3/view3.component';
+import { ChildViewComponent } from './child-view/child-view.component';
+import { ChildView1Component } from './child-view1/child-view1.component';
 import { IgxNavbarModule, IgxButtonModule, IgxRippleModule, IgxToggleModule, IgxIconModule, IgxNavigationDrawerModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
 
@@ -14,7 +16,9 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     View1Component,
     View2Component,
-    View3Component
+    View3Component,
+    ChildViewComponent,
+    ChildView1Component
   ],
   imports: [
     BrowserModule,

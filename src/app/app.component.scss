@@ -10,15 +10,15 @@
   height: max-content;
   min-width: min-content;
 }
-.nav-drawer {
-  min-width: min-content;
-  min-height: 0;
-  flex-shrink: 0;
-}
 .view-container {
   overflow: auto;
   position: relative;
   flex-grow: 1;
+}
+.nav-drawer {
+  min-width: min-content;
+  min-height: 0;
+  flex-shrink: 0;
 }
 .navbar-content {
   gap: 1rem;
@@ -42,4 +42,9 @@
   min-width: 50px;
   min-height: 50px;
   flex-grow: 1;
+}
+.group_1 {
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
 }
